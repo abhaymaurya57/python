@@ -1,3 +1,3 @@
 import random
 
-name = input("enter every name seperated by ")
+name = input("enter every name  seperated by ")
