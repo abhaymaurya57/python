@@ -86,21 +86,10 @@ my_function(5, 6, c = 7, d = 8)
 
 # recursion---------------
 def recursion(k):
-  if(k>0):
+  if(k >0 ):
     result = k + recursion(k - 1)
     print(result)
   else:
     result = 0
-    return result
-recursion(6)
-
-def tri_recursion(k):
-  if(k > 0):
-    result = k + tri_recursion(k - 1)
-    print(result)
-  else:
-    result = 0
   return result
-
-print("Recursion Example Results:")
-tri_recursion(6)
+recursion(6)
