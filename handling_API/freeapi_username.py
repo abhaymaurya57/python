@@ -1,0 +1,22 @@
+import requests
+def fectch_random_user_freeapi():
+    url = "https://github.com/abhaymaurya57"
+    response = requests.get(url)
+    data = response.json()
+
+    if data["success"] and "data" in data:
+        user_data = data["data"]
+        username = user_data["loging"]["username"]
+        country = user_data["location"]["country"]
+        return username,country
+    else:
+        raise Exception ("failed to fetch user data")
+    
+def main():
+    try:
+        username, country =fectch_random_user_freeapi()
+        print(f"username: {username}\n country:{country}")
+    except Exception as e:
+        print(str(e))
+if __name__ == "__main__":
+    main()
