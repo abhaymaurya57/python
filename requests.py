@@ -1,0 +1,5 @@
+import requests
+
+x = requests.get('https://www.google.com/search?q=import+sys+in+python&oq=import+sys&gs_lcrp=EgZjaHJvbWUqDQgBEAAYkQIYgAQYigUyDwgAEEUYORiRAhiABBiKBTINCAEQABiRAhiABBiKBTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1NTdqMGo3qAIIsAIB8QUSikbn3jsIU_EFEopG5947CFM&sourceid=chrome&ie=UTF-8')
+
+print(x.text)
