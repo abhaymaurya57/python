@@ -16,12 +16,12 @@ print(person1['name'])
 
 import math
 A = 16
-A = 9231
+A = 1000000
 print(math.sqrt(A))
 
 # import specific function from lib
 from math import factorial
-b = 10
+b = 1333
 print(factorial(b))
 
 #install new module/lib
