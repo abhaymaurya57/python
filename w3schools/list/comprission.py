@@ -21,7 +21,7 @@ newlist = []
 for x in fruits:
   if "a" in x:
     newlist.append(x)
-print(newlist)
+print('new list',newlist)
 
 
 #################################

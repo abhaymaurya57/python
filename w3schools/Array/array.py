@@ -13,3 +13,4 @@ print(cars)
 
 cars.remove("honda")
 print(cars)
+print(type(cars))

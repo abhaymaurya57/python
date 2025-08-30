@@ -12,5 +12,9 @@ thisdict = {
   "model": "Mustang",
   "year": 1964
 }
-mydict = dict(thisdict)
+mydict = list(thisdict.keys())
 print(mydict)
+
+mydict = list(thisdict.items())
+print(mydict)
+print(dict(mydict).values())

@@ -33,3 +33,10 @@ print(thislist)
 thislist = ["banana", "Orange", "Kiwi", "cherry",6,4,7,9,12]
 thislist.reverse()
 print(thislist)
+
+def myfunction(n):
+    return n-n
+lst=[2,1,3,3,3,3,3]
+lst.sort(reverse=True)
+print(lst)
+print(lst.index)

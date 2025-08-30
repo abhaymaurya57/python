@@ -4,12 +4,14 @@ print(list)
 
 # specified index
 list =['a','b','c','d']
-list.pop(0)
+a=list.pop(0)
+print(a)
 print(list)
 
 # remove the last item
 list =['a','b','c','d']
-list.pop()
+b=list.pop()
+print(b)
 print(list)
 
 # del keword also delete
@@ -21,6 +23,7 @@ print(list)
 list1 =['a','b','c','d']
 print(list1)
 del list1
+# print(list1)
 
 # cleare the list
 list1 = ['a','b','c','d','e']
