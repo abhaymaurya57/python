@@ -20,7 +20,7 @@ def rec(n):
         return n
     return rec(n-1)+rec(n-2)
 
-a=rec(343)
+a=rec(4)
 # time.sleep(2)
 print(timeit.timeit(lambda:rec,number=1))
 print(a)
