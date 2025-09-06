@@ -26,3 +26,12 @@ with open("Abhay.py", "r") as file:
    while line:
       print(line, end='')
       line = file.readline()
+   
+# Using readlines() method
+#we are using the readlines() method to read the entire file and splits it into a list
+#  where each element is a line −
+with open("Abhay.py", "r") as file:
+   lines = file.readlines()
+   for line in lines:
+      print(line, end='')
+

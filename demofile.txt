@@ -1,1 +1,10 @@
- Woops! I have deleted the content! 
+This is an example with exception handling.
+Appending this line.
+
+Appending this line.
+
+Appending this line.
+
+Appending this line.
+
+Appending this line.
