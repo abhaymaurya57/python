@@ -26,6 +26,7 @@ class ElectricCar(Car):
 my_tesla = ElectricCar("tesla","model","85kwh")
 print(my_tesla.fuel())
 Car("TATA","NANO")
+safari = Car("bajaj",'tata')
 print(safari.fuel())
 print(safari.total_car)
 print(Car.total_car)
