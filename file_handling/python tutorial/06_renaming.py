@@ -13,5 +13,5 @@
 
 import os
 
-os .rename("kush.py","kushwaha.py")
+os .rename("Abhay.py","kushwaha.py")
 print(f"file rename successfully.")
