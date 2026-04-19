@@ -6,7 +6,6 @@ def deco(func):
         print("after the table.")
     return wrapper
 
-
 @deco
 def table_print(n):
     for i in range(1,11):
