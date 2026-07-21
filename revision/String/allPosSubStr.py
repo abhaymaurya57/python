@@ -9,6 +9,7 @@ n = len(s)
 
 while True:
     pos=s.find(subs,pos+1,n)
+    print(pos)
     if pos==-1:
         break
     print("found at position",pos)
