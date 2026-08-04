@@ -11,10 +11,13 @@ for i in number:
     squares.append(square)
 print(squares)
 
-def fun():
-    number=[3,5,24,5,2,6,24]
-    squares=[]
-    for i in number:
-        squares.append(i**2)
-    return squares
-print(fun())
+num = [ i**3 for i in number ]
+print(num)
+
+# def fun():
+#     number=[3,5,24,5,2,6,24]
+#     squares=[]
+#     for i in number:
+#         squares.append(i**2)
+#     return squares
+# print(fun())

@@ -8,4 +8,4 @@ def palindrome(x):
     print(type(x))
 
 palindrome(12345)
-palindrome(-121)
+# palindrome(-121)

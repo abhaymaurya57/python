@@ -6,7 +6,7 @@ def debug(func):
         return func(*args,**kwargs)
         
     return wrapper
-@debug
+# @debug
 def hello():
     print("hello")
 @debug

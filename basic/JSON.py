@@ -1,9 +1,11 @@
 import json
 
 # # some JSON
-x = '{"a":"b","c":"d")'
+x = '{"a":"b","c":"d"}'
+print(type(x))
 # parse x:
 y = json.loads(x)
+print(type(y))
 
 # # result in python disctionary
 # print(y["c"])
